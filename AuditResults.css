@@ -1,0 +1,26 @@
+.audit-results-container {
+    padding: 20px;
+  }
+  
+  .audit-result {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .vulnerability {
+    margin-bottom: 20px;
+  }
+  
+  h1, h3, h4, h5 {
+    margin: 0;
+  }
+  
+  pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+  }
+  

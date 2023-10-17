@@ -1,0 +1,21 @@
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+/* Span Tag */
+.App nav span{
+ display:inline-block;
+ height:26px;
+ font-size:29px;
+ font-family:'Zilla Slab Highlight', display;
+ font-weight:700;
+ letter-spacing:1.5px;
+ word-spacing:1.5px;
+ color:#95a5a6;
+ direction:rtl;
+}
+
+/* Span Tag */
+#root .App .home-container nav .nav-logo-container span{
+ width:163% !important;
+}
+

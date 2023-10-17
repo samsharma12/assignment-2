@@ -1,0 +1,22 @@
+/* AuditResultDetails.css */
+.audit-details-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vulnerability-item {
+    margin-bottom: 10px;
+  }
+  
+  .vulnerability-name {
+    color: #ff6347; /* Red color for vulnerability name */
+    font-weight: bold;
+  }
+  
+  .fix-name {
+    color: #2ecc71; /* Green color for fix name */
+    font-weight: bold;
+  }
+  

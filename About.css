@@ -1,0 +1,51 @@
+/* Image */
+
+   /* Primary subheading */
+   .App .about-section-text-container .primary-subheading{
+    transform:translatex(0px) translatey(0px);
+   }
+
+   /* Heading */
+   .App .about-section-text-container h1{
+    color:#000000;
+   }
+   
+   /* Secondary button */
+   .App .about-buttons-container .secondary-button{
+    background-image:linear-gradient(to right, #fc5c7d 0%, #6a82fb 100%);
+    border-color:#151212;
+    border-width:1px;
+    border-style:solid;
+   }
+   
+   /* Watch video button */
+   .App .watch-video-button{
+    font-family:Reem Kufi, sans-serif;
+   }
+/* Footer section columns */
+.footer-wrapper .footer-section-columns{
+    transform:translatex(37px) translatey(-46px);
+   }
+   
+   /* Footer icons */
+   .footer-wrapper .footer-icons{
+    display:inline-block;
+   }
+   
+   @media (min-width:1001px){
+   
+    /* Footer section columns */
+    .footer-wrapper .footer-section-columns{
+     padding-top:21px;
+    }
+    
+    /* Footer icons */
+    .footer-wrapper .footer-icons{
+     transform:translatex(308px) translatey(-102px);
+    }
+    
+   }
+   
+   
+   
+   

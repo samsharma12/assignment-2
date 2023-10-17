@@ -1,0 +1,271 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  #logo {
+    height: 40px;
+  }
+  
+  #buttons {
+    display: flex;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Big header styles */
+  #big-header {
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0; 
+    height: 100px; 
+    overflow: hidden; 
+  }
+  
+  #big-header img {
+    max-width: 80%;
+    height: auto;
+    max-height: 50%; 
+  }
+  
+  #big-header h1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  
+  #content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  #upload {
+    margin-top: 20px;
+  }
+  
+  #agree {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  #terms {
+    margin-right: 10px;
+  }
+  
+  #analyze {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #analyze:hover {
+    background-color: #0056b3;
+  }
+
+  /* Minimalistic Black and White Styles for Audit Page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #000;
+  color: #fff;
+}
+
+#upload-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#upload-button:hover {
+  background-color: #444;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+/*test*/
+/* Import Google Fonts */
+@import url("//fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+
+
+
+/* View audit results */
+#view-audit-results{
+ position:relative;
+ left:-4px;
+ bottom:-16px;
+ background-image:linear-gradient(to right, #41295a 0%, #2f0743 100%);
+ border-color:#000000;
+ border-width:1px;
+ border-top-left-radius:50px;
+ border-top-right-radius:50px;
+ border-bottom-left-radius:50px;
+ border-bottom-right-radius:50px;
+ padding-left:18px;
+ padding-right:18px;
+ padding-top:3px;
+ padding-bottom:3px;
+ filter: grayscale(0.22);
+ color:#ffffff;
+ font-family:'Rubik', sans-serif;
+ font-weight:400;
+ font-size:15px;
+}
+
+/* Paragraph */
+#instructions p{
+ font-size:18px;
+}
+
+/* Heading */
+#instructions h2{
+ font-size:29px;
+}
+
+/* Heading */
+#result h2{
+ font-size:26px;
+}
+
+/* Heading */
+.App div h2{
+ font-size:29px !important;
+}
+
+/* View history button */
+#view-history-button{
+ padding-left:10px;
+ padding-right:10px;
+ padding-top:3px;
+ padding-bottom:4px;
+ position:relative;
+ top:16px;
+ left:400px;
+ background-image:linear-gradient(to right, #0f0c29 0%, #302b63 33%, #24243e 100%);
+ color:#ffffff;
+ border-top-left-radius:50px;
+ border-top-right-radius:50px;
+ border-bottom-left-radius:50px;
+ border-bottom-right-radius:50px;
+}
+
+/* Main */
+.App div main{
+ width:800px;
+}
+
+/* Contract upload */
+#contract-upload{
+ background-color:#ffffff;
+}
+
+/* Heading */
+.work-section-wrapper .work-section-top h1{
+  transform:translatex(77px) translatey(-91px);
+ }
+ 
+ /* Primary subheading */
+ .work-section-wrapper .work-section-top .primary-subheading{
+  transform:translatex(-163px) translatey(-111px) !important;
+ }
+ 
+ /* Testimonial section bottom */
+ .App .work-section-wrapper .testimonial-section-bottom{
+  transform:translatex(23px) translatey(-97px);
+ }
+ /* Heading */
+.work-section-wrapper .work-section-top h1{
+  transform:translatex(-57px) translatey(-86px);
+ }
+ 
+ /* Primary subheading */
+ .work-section-wrapper .work-section-top .primary-subheading{
+  transform:translatex(-206px) translatey(-94px) !important;
+ }
+ 
+ 
+ 
